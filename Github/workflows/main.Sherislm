@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.2.0
       with:
-        server: expensetrackers.atwebpages.com
+        server: expensetrackersl.atwebpages.com
         username: myFtpExpenseTracker
         password: ${{ secrets.ftp_password }}
         protocol: ftps
-        server dir:expensetrackers.atwebpages.com/
+        server dir:expensetrackersl.atwebpages.com/
